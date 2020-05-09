@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ddrawYUV - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\chj\LOCALS~1\Temp\RSP180.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ddrawYUV.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\directdraw\YUVPlayer\DlgDisplay.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\chj\LOCALS~1\Temp\RSP180.tmp" 
+Creating temporary file "C:\DOCUME~1\chj\LOCALS~1\Temp\RSP181.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ddrawYUV.pdb" /debug /machine:I386 /out:"Debug/ddrawYUV.exe" /pdbtype:sept 
+.\Debug\ddrawYUV.obj
+.\Debug\ddrawYUVDoc.obj
+.\Debug\ddrawYUVView.obj
+.\Debug\DlgDisplay.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\ddrawYUV.res
+]
+Creating command line "link.exe @C:\DOCUME~1\chj\LOCALS~1\Temp\RSP181.tmp"
+<h3>Output Window</h3>
+Compiling...
+DlgDisplay.cpp
+E:\directdraw\YUVPlayer\DlgDisplay.cpp(186) : warning C4018: '<' : signed/unsigned mismatch
+E:\directdraw\YUVPlayer\DlgDisplay.cpp(194) : warning C4018: '<' : signed/unsigned mismatch
+E:\directdraw\YUVPlayer\DlgDisplay.cpp(202) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+ddrawYUV.exe - 0 error(s), 3 warning(s)
+</pre>
+</body>
+</html>
